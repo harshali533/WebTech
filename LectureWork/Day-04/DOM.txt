@@ -1,0 +1,11 @@
+//DOM-->is bridge betn javascript and HTML.
+// DOM is programing interface for HTML.
+// web-browser load and html page, it converts HTML into a Object that object structure is called DOM.
+// javascript to read, change, add, delete HTMl elements.
+
+// why comes DOM?
+// advance things cant to itself alone JS so need DOM
+//document.queryselector
+
+//Act-3 create one simple project using JS and DOM
+//*Figma type design in nootebook
