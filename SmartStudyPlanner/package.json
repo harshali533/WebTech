@@ -1,0 +1,14 @@
+{
+    "name": "smart-study-planner",
+    "version": "1.0.0",
+    "description": "Semester project using JavaScript and Node.js",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "Harshali",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2"
+    }
+}

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Smart Study Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Smart Study Planner 🌷</h1>
+        <p>A semester project demonstrating core JavaScript concepts</p>
+    </header>
+
+    <main class="container">
+
+        <section class="left">
+            <div class="card">
+                <h2>Add Subject / Note</h2>
+                <form id="subjectForm">
+                    <input type="text" id="subjectName" placeholder="Subject name" required>
+                    <textarea id="subjectNote" placeholder="Quick note"></textarea>
+                    <button type="submit">Add Subject</button>
+                </form>
+            </div>
+
+            <div class="card">
+                <h2>Daily Planner</h2>
+                <form id="plannerForm">
+                    <input type="text" id="taskTitle" placeholder="Task title" required>
+                    <input type="date" id="taskDate" required>
+                    <input type="time" id="taskTime" required>
+                    <button type="submit">Add Task</button>
+                </form>
+                <ul id="plannerList"></ul>
+            </div>
+        </section>
+
+        <section class="right">
+            <div class="card">
+                <h2>Subjects</h2>
+                <ul id="subjectList"></ul>
+            </div>
+
+            <div class="card">
+                <h2>Quiz</h2>
+                <button id="loadQuizBtn">Load Quiz</button>
+                <div id="quizArea" class="hidden">
+                    <div id="questionContainer"></div>
+                    <button id="nextBtn">Next</button>
+                </div>
+                <div id="quizResult" class="hidden"></div>
+            </div>
+
+            <div class="card">
+                <h2>Progress</h2>
+                <div id="progressSummary"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <small>Smart Study Planner — JS Semester Project</small>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
