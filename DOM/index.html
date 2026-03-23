@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>User Register Form</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2> User Registration Form</h2>
+
+        <label>Name:</label>
+        <input type="text" id="name">
+        <small id="nameError"></small>
+
+        <label>Email:</label>
+        <input type="text" id="email">
+        <small id="emailError"></small>
+
+        <label>Phone:</label>
+        <input type="text" id="phone">
+        <small id="phoneError"></small>
+
+        <label>Password:</label>
+        <input type="password" id="password">
+        <small id="passwordError"></small>
+
+        <label>Confirm Password:</label>
+        <input type="password" id="confirmPassword">
+        <small id="confirmPasswordError"></small>
+
+        <button id="registerBtn">Register</button>
+
+        <p class="login-link">
+            Already have an account? <a href="#" id="loginLink">Login</a>
+        </p>
+        
+        <p id="successMsg"></p>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
