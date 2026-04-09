@@ -3,5 +3,7 @@ let arr = [1, 2, 3, 2, 4, 5, 1, 6, 3];
 let uniqueArr = [];
 
 for(let i = 0; i < arr.length; i++){
-    if()
+    if(!uniqueArr.includes(arr[i])){
+        uniqueArr.push(arr[i]);
+    }
 }
